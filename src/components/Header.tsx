@@ -73,8 +73,10 @@ export default function Header() {
         </button>
         <div
           className={`${
-            currentPage.pathname === '/success' ? 'hidden' : 'flex'
-          } flex  tablet:hidden tablet:mt-0  justify-end tablet:justify-center`}
+            currentPage.pathname === '/success'
+              ? 'opacity-0 pointer-events-none w-0'
+              : 'opacity-100'
+          } flex tablet:hidden tablet:mt-0  justify- tablet:justify-center`}
         >
           <Link
             to='/checkout'
@@ -82,7 +84,7 @@ export default function Header() {
               sumAmountListItems && sumAmountListItems >= 1
                 ? 'opacity-100'
                 : 'opacity-50 pointer-events-none'
-            } flex p-2 gap-3 rounded-md bg-yellow-light  justify-center items-center`}
+            }   flex p-2 gap-3 rounded-md bg-yellow-light  justify-center items-center`}
           >
             <ShoppingCart
               className='flex text-purple-dark text-sm'
@@ -98,12 +100,16 @@ export default function Header() {
               sumAmountListItems &&
               sumAmountListItems >= 1
                 ? 'opacity-100'
-                : 'opacity-0 pointer-events-none'
-            } ${
+                : 'opacity-0 pointer-events-none '
+            } 
+
+           
+            
+            ${
               currentPage.pathname === '/checkout'
                 ? 'pointer-events-none'
                 : 'pointer-events-auto'
-            } flex justify-center items-center text-white font-roboto text-sm font-bold -ml-3 -mt-3 h-6 w-6 bg-yellow-dark rounded-full transition duration-200`}
+            }  flex justify-center items-center text-white font-roboto text-sm font-bold -ml-3 -mt-3 h-6 w-6 bg-yellow-dark rounded-full transition duration-200`}
           >
             {sumAmountListItems}
           </div>
@@ -117,7 +123,13 @@ export default function Header() {
           </span>
         </div>
 
-        <div className='hidden tablet:flex  tablet:mt-0 mt-5 justify-end tablet:justify-center'>
+        <div
+          className={`${
+            currentPage.pathname === '/success'
+              ? 'opacity-0 pointer-events-none w-0'
+              : 'opacity-100'
+          } hidden tablet:flex  tablet:mt-0 mt-5 justify-end tablet:justify-center`}
+        >
           <Link
             to='/checkout'
             className={`${
