@@ -1,11 +1,12 @@
 <h1 align="center">Coffee Delivery</h1>
 
  <div align="center">
-<img width="500" alt="Coffee Delivery" src="https://github.com/MatheusWAlvarenga/MatheusWAlvarenga/assets/94935750/94b54273-2974-460e-af0d-e67305cfe300">
+<img width="500" alt="Coffee Delivery" src="https://github.com/MatheusWAlvarenga/coffee-delivery/assets/94935750/91ba84b0-bcc9-40e8-9f6a-0836158022e6">
 <img width="130" alt="Coffee Delivery mobile" src="https://github.com/MatheusWAlvarenga/MatheusWAlvarenga/assets/94935750/2087e172-c4f6-4273-8e13-d6975a789d1c">
 </div>
 
 ## Project Overview
+
 
 This project is a coffee delivery service built using React, Vite, and Tailwind CSS. It serves as a showcase of my skills in React Hooks for state management and contexts.
 
