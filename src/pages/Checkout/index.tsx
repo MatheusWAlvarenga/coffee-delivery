@@ -140,7 +140,7 @@ export function Checkout() {
 
   return (
     <div className='flex flex-col px-[1rem] tablet:px-0 gap-8'>
-      <div className='overflow-y-scroll h-screen tablet:flex w-full gap-4'>
+      <div className='h-screen tablet:flex w-full gap-4'>
         <div className='flex flex-col w-full tablet:w-[60%]'>
           <header className='font-baloo2 text-lg text-base-subtitle mb-4'>
             Complete seu pedido

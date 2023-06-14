@@ -23,7 +23,7 @@ export function Home() {
   const { coffeeList, handleCoffeeList } = useContext(ShoppingContext)
 
   return (
-    <div className='overflow-y-scroll flex flex-col h-screen w-full px-full'>
+    <div className='flex flex-col h-screen w-full px-full'>
       <Intro />
 
       {coffeeList.length ? (

@@ -13,7 +13,7 @@ export function Success() {
     useContext(ShoppingContext)
 
   return (
-    <div className='overflow-y-scroll tablet:overflow-y-hidden flex flex-col gap-8 tablet:mt-[5rem]'>
+    <div className=' tablet:overflow-y-hidden flex flex-col gap-8 tablet:mt-[5rem]'>
       <div className='tablet:flex w-full gap-[1rem] tablet:gap-[6rem]'>
         <div className='flex flex-col w-full gap-8'>
           <div className='flex flex-col w-full gap-1 tablet:mt-[1rem] mt-[2rem]'>

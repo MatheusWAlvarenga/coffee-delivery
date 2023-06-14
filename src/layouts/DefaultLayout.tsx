@@ -21,8 +21,14 @@ export function DefaultLayout() {
       >
         <Loading />
       </div>
-      <div className='flex px-[1rem] tablet:px-[10.4375rem] pb-28 monitor:px-[25%] flex-col flex-1 '>
+      <div
+        className={`${
+          loading ? 'hidden' : 'fixed'
+        } bg-white flex px-[1rem] tablet:px-[10.4375rem] monitor:px-[25%] w-full flex-1`}
+      >
         <Header />
+      </div>
+      <div className='flex px-[1rem] tablet:px-[10.4375rem] pb-28 monitor:px-[25%] flex-col flex-1 mt-28'>
         <Outlet />
       </div>
     </div>
