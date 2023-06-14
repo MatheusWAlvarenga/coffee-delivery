@@ -1,8 +1,8 @@
 <h1 align="center">Coffee Delivery</h1>
 
  <div align="center">
-<img width="500" alt="Coffee Delivery" src="https://github.com/MatheusWAlvarenga/GeoMapX/assets/94935750/38162b6d-fdf5-4297-ac2c-486f57503a5c">
-<img width="130" alt="Coffee Delivery mobile" src="https://github.com/MatheusWAlvarenga/toDo/assets/94935750/b4631844-fe96-4e21-a0b4-142fd6da60e7">
+<img width="500" alt="Coffee Delivery" src="https://github.com/MatheusWAlvarenga/MatheusWAlvarenga/assets/94935750/94b54273-2974-460e-af0d-e67305cfe300">
+<img width="130" alt="Coffee Delivery mobile" src="https://github.com/MatheusWAlvarenga/MatheusWAlvarenga/assets/94935750/2087e172-c4f6-4273-8e13-d6975a789d1c">
 </div>
 
 ## Project Overview
