@@ -1,9 +1,10 @@
 <h1 align="center">Coffee Delivery</h1>
 
  <div align="center">
-<img width="500" alt="Coffee Delivery" src="https://github.com/MatheusWAlvarenga/coffee-delivery/assets/94935750/91ba84b0-bcc9-40e8-9f6a-0836158022e6">
-<img width="130" alt="Coffee Delivery mobile" src="https://github.com/MatheusWAlvarenga/MatheusWAlvarenga/assets/94935750/2087e172-c4f6-4273-8e13-d6975a789d1c">
+<img width="700" alt="Coffee Delivery" src="https://github.com/MatheusWAlvarenga/coffee-delivery/assets/94935750/ffd73e40-0efb-4614-bf53-5a23768a4f3e">
+<img width="130" alt="Coffee Delivery mobile" src="https://github.com/MatheusWAlvarenga/coffee-delivery/assets/94935750/96c46207-c4cd-4122-b6b3-6f3905814c8b">
 </div>
+
 
 ## Project Overview
 
